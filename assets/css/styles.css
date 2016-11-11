@@ -36,6 +36,10 @@ html {
   font-weight: lighter;
 }
 
+.navbar-default .navbar-nav>li>a:hover {
+  color: #4aaaa5;
+}
+
 .about-me-header {
   font-size: 32px;
   font-family: Georgia, Times, 'Times New Roman', serif;
@@ -64,6 +68,31 @@ html {
   float: left;
   margin-right: 20px;
   margin-top: 20px;
+}
+
+#connect-with-me-area {
+  background-color: white;
+  width: 100%;
+  margin-top: 32px;
+  padding: 30px 30px 43px 30px;
+}
+
+.connect-with-me-header {
+  font-size: 25px;
+  font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #4aaaa5;
+}
+
+.connect-with-me-photo {
+  height: 55px;
+  width: 55px;
+}
+
+#images {
+  padding-top: 15px;
+  text-align: center;
 }
 
 .footer {
