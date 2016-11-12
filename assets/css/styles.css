@@ -9,6 +9,7 @@ html {
   min-height: 100%;
 }
 
+/*---------NAV START----------*/
 .navbar-custom {
   background-color: #fff;
 }
@@ -25,10 +26,6 @@ html {
   color: #fff;
 }
 
-.nav-pipe {
-  padding-left: 20px
-}
-
 .navbar-right-custom {
   padding-top: 6px;
   padding-right: 20px;
@@ -39,6 +36,8 @@ html {
 .navbar-default .navbar-nav>li>a:hover {
   color: #4aaaa5;
 }
+
+/*--------NAV END----------*/
 
 .about-me-header {
   font-size: 32px;
@@ -70,11 +69,15 @@ html {
   margin-top: 20px;
 }
 
+/*-------------------*/
+/* CONNECT W/ ME CSS */
+/*-------------------*/
+
 #connect-with-me-area {
-  background-color: white;
-  width: 100%;
+  background-color: #fff;
   margin-top: 32px;
   padding: 30px 30px 43px 30px;
+  width: 100%;
 }
 
 .connect-with-me-header {
@@ -94,6 +97,7 @@ html {
   padding-top: 15px;
   text-align: center;
 }
+/*-------END--------*/
 
 .footer {
   position: absolute;
@@ -114,3 +118,57 @@ html {
   padding-top: 3px;
   background-color: #4aaaa5;
 }
+
+/*-------------------*/
+/* CONTACT FORM CSS */
+/*-------------------*/
+.contact-form {
+  padding: 45px 10px 25px 31px;
+  background-color: #fff;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.contact-form-header,
+.port-header {
+  font-size: 32px;
+  font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+  color: #4aaaa5;
+  font-weight: bold;
+  margin-bottom: 33px;
+}
+
+#name_input,
+#mail_input,
+#msg {
+  width: 95%;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  height: 30px;
+}
+
+#msg {
+  height: 200px;
+  border-color: #bbc;
+}
+
+.label-name,
+.label-msg,
+.label-mail {
+  font-size: 17px;
+  color: #bbc;
+}
+
+.contact-hr {
+  margin-bottom: 30px;
+}
+
+.submit-btn {
+  padding: 15px 30px;
+  color: #fff;
+  background-color: #4aaaa5;
+  border: 0;
+  font-size: 16px;
+  font-weight: lighter;
+}
+/*----------END----------*/
